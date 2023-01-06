@@ -68,15 +68,6 @@ nav .nav-ul{
     font-weight: 400;
     margin-bottom: 2rem;
 }
-.banner-left .download-btn{
-    font-size: 1.8rem;
-    background: #FD6E0A;
-    color: #fff;
-    padding: 1rem 2.5rem;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
 .banner-left .contact-btn{
     font-size: 1.8rem;
     color: #FD6E0A;
@@ -91,6 +82,28 @@ main{
     max-width: 100rem;
     margin: auto;
 }
+.download-btn{
+    font-size: 1.8rem;
+    background: #FD6E0A;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.title-heading{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.section-desc{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    text-align: justify;
+}
+
+/* about styling */
 
 .about{
     margin-top: 20rem;
@@ -98,24 +111,76 @@ main{
     padding: 12rem 15rem;
     background: #e0c1ac;
 }
-.title-heading{
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-.about p{
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    text-align: justify;
-}
 .about-div{
     display: flex;
     justify-content: space-between;
 }
 .about-div p{
     text-align: center;
+    font-size: 1.8rem;
 }
 .about-div p span{
     font-weight: 700;
+}
+
+/* what i do styling  */
+
+#what-i-do{
+    margin: 20rem 0;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.skill{
+    /* border: 1px solid red; */
+    /* background-color: #e0c1ac; */
+    padding: 2.5rem;
+    box-shadow: .2rem .2rem 1rem gray;
+}
+.skill h2{
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+.skill p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    /* text-align: justify; */
+    line-height: 2.5rem;
+}
+
+/* summary styling */
+
+.resume-div{
+    display: flex;
+    gap: 3rem;
+    /* justify-content: space-between; */
+}
+.resume-div  h2{
+    font-size: 2rem;
+}
+.resume-div p{
+    font-size: 1.6rem;
+}
+.education-div div, 
+.experience-div div{
+    margin-bottom: 5rem;
+    border-bottom: .1px solid rgba(0, 0, 0, 0.486);
+}
+.education-div > h2, 
+.experience-div > h2{
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+}
+.education-div div > p, 
+.experience-div div > p{
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+#summary .download-btn{
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
